@@ -1,3 +1,4 @@
+![raytracing](https://github.com/user-attachments/assets/378265de-32e4-4e5a-a5bd-956e37ff4c9a)
 
 A very simple (slow) pathtracing demo
 Supports:
