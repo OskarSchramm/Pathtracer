@@ -1,4 +1,3 @@
-![scene_backup](https://github.com/user-attachments/assets/1d8aa15d-1148-4102-87cf-6de36dc7a2a3)
 
 A very simple (slow) pathtracing demo
 Supports:
