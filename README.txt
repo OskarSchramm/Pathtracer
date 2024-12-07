@@ -1,3 +1,5 @@
+![scene_backup](https://github.com/user-attachments/assets/0f586379-4ee1-47f0-83d0-2da24857ee8d)
+
 A very simple (slow) pathtracing demo
 Supports:
 Reflection
