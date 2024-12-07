@@ -1,0 +1,27 @@
+// camera: px,py,pz, rx,ry,rz,ux,uy,uz,fx,fy,fz
+camera 0 1.5 -3 1 0 0 0 1 0 0 0 1
+
+// directional_light dx,dy,dz,red,green,blue
+directional_light 1.5 -1 0.5 1.0 0.9 0.5
+
+// sky: horizon r, g, b, straight up r, g, b
+sky 0.4 0.6 0.8 0.02 0.1 0.5
+
+// sphere: cx,cy,cz,radius,red,green,blue
+sphere glass 0.5 1 0 1 1 1 0.7 0.7 0.7 1.52
+sphere mirror -1 1 2 1 0.7 0.7 0.7
+
+// aabb:    cx,cy,cz,wx,wy,wz,red,green,blue
+aabb normal 0  8  10 10 2 2 0.6 0.6 0.6
+aabb normal 7  -1  10 5 20 2 0.6 0.6 0.6
+aabb normal -7 -1  10 5 20 2 0.6 0.6 0.6
+
+aabb normal 0 15  0 100 1 100 0.6 0.6 0.6
+aabb normal 0 -15 0 100 1 100 0.6 0.6 0.6
+
+aabb normal 5 0 0 5 20 5 0.4 0.5 1.0
+aabb normal -5 0 0 5 20 5 1.0 0.4 0.5
+
+aabb emissive  0 4 3 1 1 1 5 1.6 1.6
+aabb glass     -2 4 3 1 1 1 5 1.6 1.6 1.52
+aabb mirror    2 4 3 1 1 1 0.4 1 0.6
